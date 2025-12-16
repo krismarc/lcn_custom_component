@@ -21,7 +21,7 @@ from .const import CONF_DOMAIN_DATA
 from .entity import LcnEntity
 from .helpers import InputType, LcnConfigEntry
 
-PARALLEL_UPDATES = 0
+PARALLEL_UPDATES = 8
 SCAN_INTERVAL = timedelta(minutes=1)
 
 

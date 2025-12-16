@@ -35,7 +35,7 @@ from .helpers import InputType, LcnConfigEntry
 
 BRIGHTNESS_SCALE = (1, 100)
 
-PARALLEL_UPDATES = 0
+PARALLEL_UPDATES = 8
 SCAN_INTERVAL = timedelta(minutes=1)
 
 
