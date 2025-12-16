@@ -19,7 +19,7 @@ from .entity import LcnEntity
 from .helpers import InputType, LcnConfigEntry
 
 PARALLEL_UPDATES = 2
-SCAN_INTERVAL = timedelta(minutes=1)
+SCAN_INTERVAL = timedelta(seconds=92)
 
 
 def add_lcn_switch_entities(
