@@ -23,7 +23,7 @@ from .const import (
 from .entity import LcnEntity
 from .helpers import LcnConfigEntry
 
-PARALLEL_UPDATES = 0
+PARALLEL_UPDATES = 1
 
 
 def add_lcn_entities(
